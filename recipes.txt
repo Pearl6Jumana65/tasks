@@ -6,5 +6,8 @@ Pasta
 Noodles
 Salad
 
+Beans
+Pizza
+
 
 Thank You
