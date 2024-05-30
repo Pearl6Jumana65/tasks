@@ -1,0 +1,30 @@
+const mainHeading = document.querySelector('#main-heading');
+mainHeading.style.textAlign = 'right';
+
+const fruits = document.querySelector('.fruits');
+fruits.style.backgroundColor = 'gray';
+fruits.style.padding = '30px';
+fruits.style.margin= '30px';
+fruits.style.width = '50%';
+fruits.style.borderRadius = '5px';
+fruits.style.listStyleType = 'none';
+
+const basket = document.querySelector('h2');
+basket.style.color='brown';
+
+const fitems = document.querySelectorAll('.fruit');
+
+for(let i=0; i<fitems.length; i++)
+  {
+    fitems[i].style.backgroundColor = 'white';
+    fitems[i].style.padding = '10px';
+    fitems[i].style.margin = '10px';
+    fitems[i].style.borderRadius = '5px';
+  }
+
+const even=document.querySelectorAll('.fruit:nth-child(even)');
+for(let j=0; j<even.length; j++)
+  {
+    even[j].style.backgroundColor = 'brown';
+    even[j].style.color = 'white';
+  }
