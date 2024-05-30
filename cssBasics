@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+    <style>
+        /* Apply styles to form element */
+        #myForm {
+            font-family: Arial;
+            background-color: gray;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        /* Apply styles to label elements */
+        #myForm label {
+            font-weight: bold;
+            font-size: 20px;
+            color: blue;
+        }
+
+        /* Apply styles to input elements */
+        #myForm input {
+            font-style: italic;
+            margin-bottom: 20px;
+            height: 30px;
+        }
+
+        /* Apply styles to button element */
+        #myForm button {
+            background-color: yellow;
+            width: 225px;
+            border: 1px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
