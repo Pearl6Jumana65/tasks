@@ -1,0 +1,16 @@
+function storeUserDetails(event) {
+            event.preventDefault();
+
+            // Get input values
+            const username = document.querySelector('input[name="username"]').value;
+            const email = document.querySelector('input[name="email"]').value;
+            const phone = document.querySelector('input[name="phone"]').value;
+
+            // Store values in local storage
+            localStorage.setItem("Username", username);
+            localStorage.setItem("Email", email);
+            localStorage.setItem("Phone", phone);
+
+            // Optionally, you can display a message to the user
+            alert("User details saved!");
+        }
